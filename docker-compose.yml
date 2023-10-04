@@ -41,7 +41,7 @@ services:
     image: overloadua/vprofileweb
     container_name: vproweb
     ports:
-      - "80-80"
+      - "80:80"
 
 volumes:
   vprodbdata: {}
